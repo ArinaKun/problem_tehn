@@ -1,0 +1,44 @@
+body {
+    font-family: comic sans ms,  sans-serif; /* Семейство шрифтов */
+    font-size: 22px; /* Размер основного шрифта в <p></p>  */
+    background-color: #185a90; /* Цвет фона веб-страницы */
+    color: #0a0909; /* Цвет основного текста */ 
+}
+h1 {
+    color: #530968; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 3s infinite;
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+      margin-left:0 ;
+    }
+
+    50% {
+        color: rgb(60, 202, 241);
+    }
+
+    100% {
+        color: #185a90;
+        margin-left:200px ;
+      }
+}
+h2 {
+    color:#185a90;
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+p:hover{
+  animation: p-color 2s infinite;
+}
+
+@keyframes p-color{
+    0%{
+        color:#530968;
+    }
+    100%{
+        color:aquamarine;
+    }
+}
